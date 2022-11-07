@@ -1,0 +1,11 @@
+.badge {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 5px 10px;
+  background: #33CB7F;
+  border-radius: 4px;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}

@@ -1,0 +1,13 @@
+h1 {
+  font-size: 232px;
+  color: #515356;
+  font-weight: 700;
+  line-height: 232px;
+}
+  
+
+@media screen and (max-width:768px) {
+  h1 {
+    font-size: 190px;
+  }
+}

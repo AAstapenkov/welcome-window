@@ -1,0 +1,25 @@
+aside {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-top: auto;
+  background-color: #171A1E;
+  padding: 16px 56px;
+  position: relative;
+  width: 544px;
+}
+
+
+
+@media screen and (max-width:768px) {
+  aside {
+    width: 444px;
+  }
+
+  h1 {
+    font-size: 190px;
+  }
+
+
+}
+

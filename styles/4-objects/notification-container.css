@@ -1,0 +1,16 @@
+.notification-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 528px;
+  gap: 16px;
+  padding: 16px 16px 0 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width:1080px) {
+  .notification-container {
+    display: none;
+  }
+}

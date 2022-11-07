@@ -1,0 +1,37 @@
+.notification {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 32px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  background-color: #171A1E;
+  padding: 24px 24px 32px;
+}
+
+.notification-error .notification-title {
+  color: #ee2524;
+}
+
+.notification-time .notification-title {
+  color: #F4954D;
+}
+
+.notification-question .notification-title {
+  color: #5C6BC0;
+}
+
+.notification-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #F3F4F4;
+}
+
+.notification-question .button-action {
+  display: flex;
+  align-self: flex-start;
+  max-width: 224px;
+  margin-top: 16px;
+  padding: 16px 24px;
+}
